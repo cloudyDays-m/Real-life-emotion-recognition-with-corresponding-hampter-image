@@ -1,0 +1,13 @@
+# ignore data folders
+train/
+test/
+
+# ignore big files
+*.csv
+*.zip
+*.png
+*.jpg
+
+# ignore the python cache files
+__pycache__/
+*.pyc
