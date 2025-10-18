@@ -1,1 +1,1 @@
-# Real-life-emotion-recognition-with-corresponding-hampter-image
+# Emotion detector with the corresponding hampter
