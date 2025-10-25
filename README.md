@@ -74,3 +74,7 @@ This project’s model training and base architecture were developed with the he
 Realtime Face Emotion Recognition | Tensorflow | Transfer Learning | Python | Train your own Images (YouTube) (*https://www.youtube.com/watch?v=avv9GQ3b6Qg&t=120s*)
 
 The tutorial by DeepLearning_by_PhDScholar on FER-2013 inspired the training process and provided foundational guidance for implementing transfer learning using MobileNetV2.
+
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
+
+
