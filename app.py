@@ -14,11 +14,11 @@ st.set_page_config(
 st.markdown("""
     <style>
       .main-header {
-        font-size: 400;
+        font-size: 7rem;
         font-weight: bold;
         text-align: center;
-        color: #FF6B6B;
-        margin-bottom: 1rem;
+        color: #AAAAEC;
+
     }
     .emotion-box {
         padding: 20px;
@@ -106,7 +106,7 @@ def detect_emotion(image, model, face_cascade):
     return None, None, None
 
 def main():
-    st.markdown('<p class="main-header">Emotion Detection App</p>', unsafe_allow_html=True)
+    st.markdown('<p class="main-header" style="font-size: 5rem; text-align: center; margin-top: 3rem, margin-bottom: 1rem">Emotion Detection App</p>', unsafe_allow_html=True)
     
     model = load_model()
     face_cascade = load_face_cascade()
