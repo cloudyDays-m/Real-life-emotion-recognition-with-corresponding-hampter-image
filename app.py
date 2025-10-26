@@ -156,14 +156,14 @@ def main():
             
             with col1:
                 st.subheader("original Image")
-                st.image(image_rgb, use_column_width=True)
+                st.image(image_rgb, use_container_width=True)
             
             emotion, confidence, result_image = detect_emotion(image_rgb.copy(), model, face_cascade)
             
             with col2:
                 st.subheader("detection result")
                 if emotion is not None:
-                    st.image(result_image, use_column_width=True)
+                    st.image(result_image, use_container_width=True)
                     
                     colors_hex = {
                         "Angry": "#F3B3B3",
@@ -183,7 +183,7 @@ def main():
                     
                     if emotion in hampter_images:
                         st.subheader(f"{emotion} Hampter")
-                        st.image(hampter_images[emotion], use_column_width=True)
+                        st.image(hampter_images[emotion], use_container_width=True)
                 else:
                     st.warning("no face detected in the image, please choose a clear image of a front facing face in order for the face to be detected")
     
@@ -284,7 +284,7 @@ def main():
                     if current_emotion in hampter_images:
                         hampter_placeholder.image(hampter_images[current_emotion], 
                                                 caption=f"{current_emotion} Hampter",
-                                                use_column_width=True)
+                                                use_container_width=True)
             
             cap.release()
         else:
