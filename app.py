@@ -13,11 +13,11 @@ st.set_page_config(
 
 st.markdown("""
     <style>
-    .main-header {
-        font-size: 3rem;
+      .main-header {
+        font-size: 5rem;
         font-weight: bold;
         text-align: center;
-        color: #1f77b4;
+        color: #FF6B6B;
         margin-bottom: 1rem;
     }
     .emotion-box {
